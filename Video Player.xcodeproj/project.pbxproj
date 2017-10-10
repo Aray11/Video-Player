@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3D7D291F7F46BE0012A48D /* cinema.png in Resources */ = {isa = PBXBuildFile; fileRef = FA3D7D281F7F46BE0012A48D /* cinema.png */; };
 		FAE13EBF1F7A9FBC00D38298 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE13EBE1F7A9FBC00D38298 /* AppDelegate.swift */; };
 		FAE13EC11F7A9FBC00D38298 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE13EC01F7A9FBC00D38298 /* ViewController.swift */; };
 		FAE13EC41F7A9FBC00D38298 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE13EC21F7A9FBC00D38298 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA3D7D281F7F46BE0012A48D /* cinema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cinema.png; sourceTree = "<group>"; };
 		FAE13EBB1F7A9FBC00D38298 /* Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE13EBE1F7A9FBC00D38298 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE13EC01F7A9FBC00D38298 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		FAE13EDA1F7A9FBC00D38298 /* Video PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Video PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE13EDE1F7A9FBC00D38298 /* Video_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video_PlayerUITests.swift; sourceTree = "<group>"; };
 		FAE13EE01F7A9FBC00D38298 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE13EEC1F7AA11200D38298 /* tv streaming.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "tv streaming.mp4"; path = "../../../../Downloads/tv streaming.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +100,14 @@
 		FAE13EBD1F7A9FBC00D38298 /* Video Player */ = {
 			isa = PBXGroup;
 			children = (
+				FA3D7D281F7F46BE0012A48D /* cinema.png */,
 				FAE13EBE1F7A9FBC00D38298 /* AppDelegate.swift */,
 				FAE13EC01F7A9FBC00D38298 /* ViewController.swift */,
 				FAE13EC21F7A9FBC00D38298 /* Main.storyboard */,
 				FAE13EC51F7A9FBC00D38298 /* Assets.xcassets */,
 				FAE13EC71F7A9FBC00D38298 /* LaunchScreen.storyboard */,
 				FAE13ECA1F7A9FBC00D38298 /* Info.plist */,
+				FAE13EEC1F7AA11200D38298 /* tv streaming.mp4 */,
 			);
 			path = "Video Player";
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			files = (
 				FAE13EC91F7A9FBC00D38298 /* LaunchScreen.storyboard in Resources */,
 				FAE13EC61F7A9FBC00D38298 /* Assets.xcassets in Resources */,
+				FA3D7D291F7F46BE0012A48D /* cinema.png in Resources */,
 				FAE13EC41F7A9FBC00D38298 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +511,7 @@
 				FAE13EE51F7A9FBC00D38298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE13EE61F7A9FBC00D38298 /* Build configuration list for PBXNativeTarget "Video PlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				FAE13EE81F7A9FBC00D38298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAE13EE91F7A9FBC00D38298 /* Build configuration list for PBXNativeTarget "Video PlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				FAE13EEB1F7A9FBC00D38298 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
